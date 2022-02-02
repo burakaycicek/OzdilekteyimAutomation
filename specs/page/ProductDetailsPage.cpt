@@ -1,0 +1,37 @@
+Created by testinium on 1.02.2022
+
+This is a concept file with following syntax for each concept.
+
+#Ürün detay sayfasındamıyız kontrol edilir
+*xpath"//*[@class='android.widget.TextView'][@text='Listeme Ekle']" li elementi bul ve "Listeme Ekle" alanını kontrol et
+*"5" saniye bekle
+
+#Favoriler butonuna tıklanır
+*"//*[@resource-id='com.ozdilek.ozdilekteyim:id/imgFav']" xpath'li elemente tıkla
+*"5" saniye bekle
+
+#Giriş yapma sayfasındamıyız kontrol edilir
+*xpath"//*[@resource-id='com.ozdilek.ozdilekteyim:id/tvRegister'][@text='Üye Ol']" li elementi bul ve "Üye Ol" alanını kontrol et
+*"5" saniye bekle
+
+#E-posta kısmına 'text'yazılır
+*"com.ozdilek.ozdilekteyim:id/etEposta" id'sine "burakaycicek@test.com" textini yaz
+*"5" saniye bekle
+
+
+#Parola kısmına şifre girilir
+*"com.ozdilek.ozdilekteyim:id/etPassword" id'sine "34Testinium//*" textini yaz
+*"5" saniye bekle
+
+#Geri butonuna iki kere tıklanır
+*"com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+*"5" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+*"5" saniye bekle
+
+#Sepete ekle butonuna basılır
+*"com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id'li elemente tıkla
+*"7" saniye bekle
+
+
+
